@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container flex-lg-column">
+                <a class="navbar-brand text-light d-lg-none" href="#">SHUSHI FOOD</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-lg-column">
+                        <li class="nav-item" id="s-icon">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="assets/images/S..png" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light aria-current="page" href="index.html">
+                                <img src="assets/images/homeLogo.png" alt=""> 
+                                <label class="d-lg-none">HOME</label>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="menu.html">
+                                <img src="assets/images/cart light.png" alt="">
+                                <label class="d-lg-none text-light">MENU</label>
+                            </a>
+                        </li>
+                        <li class="nav-item current">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="assets/images/shopping_cart_24px.png" alt="">
+                                <label class="d-lg-none text-light">CART</label>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="assets/images/place_24px.png" alt="">
+                                <label class="d-lg-none text-light">LOCATION</label>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="assets/images/exitIcon.png" alt="">
+                                <label class="d-lg-none text-light">EXIT</label>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+
+        <div class="contents">
+            <h1 id="head">CART</h1>
+            <div class="content">
+                <div class="cart-div">
+                    <div class="item">
+                        <img src="assets/images/img1.jpg" alt="">
+                        <div class="detail">
+                            <p id="name">Smashed Avo</p>
+                            <p>$20.00</p>
+                        </div>
+                        <p class="count">- <span id="num">1</span> +</p>
+                        <p class="cancel">x</p>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/img2.jpg" alt="">
+                        <div class="detail">
+                            <p id="name">Yin & Yang</p>
+                            <p>$10.00</p>
+                        </div>
+                        <p class="count">- <span id="num">1</span> +</p>
+                        <p class="cancel">x</p>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/img3.jpg" alt="">
+                        <div class="detail">
+                            <p id="name">Pancakes</p>
+                            <p>$25.00</p>
+                        </div>
+                        <p class="count">- <span id="num">1</span> +</p>
+                        <p class="cancel">x</p>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/img6.jpg" alt="">
+                        <div class="detail">
+                            <p id="name">Breakkie Roll</p>
+                            <p>$25.00</p>
+                        </div>
+                        <p class="count">- <span id="num">1</span> +</p>
+                        <p class="cancel">x</p>
+                    </div>
+                </div>
+    
+                <div class="oder">
+                    <div class="subTotal">
+                        <h3>Your Subtotal</h3>
+                        <p>Subtotal $80</p>
+                        <a href="#" class="btn bg-dark text-light confirm">Confirm Oder</a>
+                    </div>
+                    <div class="promo">
+                        <form>
+                            <label for="code"><h3>Promo Code</h3></label>
+                            <input type="number" name="code" id="code" placeholder="enter promo code">
+                            <button type="submit" class="btn bg-dark text-light">Apply</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer><p>Copyright © 2021 Sushi Restaurant</p></footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
