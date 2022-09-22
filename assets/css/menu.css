@@ -51,6 +51,11 @@ body{
     height: 240px;
 }
 
+.load-more{
+    display: none;
+    transition: 1s;
+}
+
 
 footer{
     text-align: center;
